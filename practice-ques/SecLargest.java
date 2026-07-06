@@ -5,8 +5,8 @@ public class SecLargest {
     Scanner s = new Scanner(System.in);
     int N = s.nextInt();
     int arr[] = new int[N];
-    int max = 0;
-    int secmax = -1;
+    int max = Integer.MIN_VALUE;
+    int secmax = Integer.MIN_VALUE;
     for (int i = 0; i < N; i++) {
       arr[i] = s.nextInt();
     }
