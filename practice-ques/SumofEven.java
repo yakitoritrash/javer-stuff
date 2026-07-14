@@ -1,4 +1,4 @@
-iport java.util.Scanner;
+import java.util.Scanner;
 
 public class SumofEven {
   public static void main(String[] args) {
